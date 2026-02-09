@@ -1,1 +1,1 @@
- [Key.ctrl_l] ksdfd [Key.space] ioidfcnio [Key.space] fojk [Key.shift] :oiio [Key.ctrl_l] 
+ [Key.ctrl_l] 
