@@ -45,12 +45,18 @@ Do NOT use this on systems you do not own or have explicit permission to monitor
 └── logs/                  # Logs, screenshots & images
 ```
 ---
-## Installation
+## 🛠️ Installation
 
+```bash
 git clone https://github.com/0xmise05/Keylogger.git
 cd Keylogger
 pip install -r requirements.txt
-
+```
 ---
 ## Usage 
+
+```bash
+python main.py
+```
+```bash
 python main.py
