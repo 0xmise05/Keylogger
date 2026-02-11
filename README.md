@@ -42,7 +42,7 @@ Do NOT use this on systems you do not own or have explicit permission to monitor
 ├── server.py              # Backend receiver (optional)
 ├── persistence.py         # Startup persistence (lab use only)
 ├── requirements.txt       # Dependencies
-└── logs/                # Logs, screenshots & images```
+└── logs/                # Logs, screenshots & images
 
 ## git clone https://github.com/0xmise05/Keylogger.git
 cd Keylogger
