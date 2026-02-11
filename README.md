@@ -1,23 +1,33 @@
-# 🕵️‍♂️ Keylogger
+# 🕵️‍♂️ Keylogger & Surveillance Tool (Educational)
 
-A Python-based **Keylogger tool** designed to record keystrokes and support remote monitoring. Built for learning, research, or authorized use cases in cybersecurity.  
-⚠️ **Important:** This project is *intended for educational purposes only*. Unauthorized keylogging may be illegal and unethical. Use only on systems you are permitted to monitor. :contentReference[oaicite:1]{index=1}
+A Python-based **Keylogger and Monitoring Tool** that captures keystrokes, screenshots, and webcam images.  
+Built for **cybersecurity learning, malware analysis labs, and defensive research** in controlled environments.
+
+⚠️ **Disclaimer:**  
+This project is strictly for **educational and authorized testing purposes only**.  
+Do NOT use this on systems you do not own or have explicit permission to monitor. Misuse may be illegal.
 
 ---
 
 ## 🚀 Features
 
-✔️ Captures all keystrokes from the keyboard  
-✔ Logs data locally (e.g., in a log file)  
-✔ Optional server reporting support  
-✔ Simple, extensible Python architecture  
-✔ Background execution design
+✔️ Keystroke logging  
+✔️ Automatic screenshot capture  
+✔️ Webcam image capture  
+✔️ Local logging support  
+✔️ Optional server reporting (if enabled)  
+✔️ Modular and extensible Python code  
+✔️ Runs in background  
 
 ---
 
-## 🧠 What is a Keylogger?
+## 🧠 Use Cases (Legitimate Only)
 
-A keylogger (keystroke logger) is software or hardware that records every key pressed on a keyboard. While keyloggers have legitimate uses like usability research or authorized monitoring, they are often associated with security threats when misused. :contentReference[oaicite:2]{index=2}
+- Malware analysis & red team labs  
+- Cybersecurity research  
+- Blue team detection testing  
+- Endpoint security validation  
+- Academic projects  
 
 ---
 
@@ -25,10 +35,11 @@ A keylogger (keystroke logger) is software or hardware that records every key pr
 
 ```plaintext
 📦 Keylogger
-├── main.py               # Main keylogger script
-├── config.py             # Main project settings
-├── persistence.py        # Persistence utilities
-├── control_gui.py        # Optional GUI for control
-├── server.py             # Backend receiver (if applicable)
-├── requirements.txt      # Python dependencies
-└── logs/                 # Stored keystroke logs
+├── main.py                # Main controller
+├── keylogger.py           # Keystroke capture module
+├── screenshot.py          # Screenshot capture
+├── webcam.py              # Webcam capture
+├── server.py              # Backend receiver (optional)
+├── persistence.py         # Startup persistence (lab use only)
+├── requirements.txt       # Dependencies
+└── logs/                  # Logs, screenshots & images
