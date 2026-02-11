@@ -53,10 +53,8 @@ cd Keylogger
 pip install -r requirements.txt
 ```
 ---
-## Usage 
+## ▶️ Usage 
 
 ```bash
 python main.py
 ```
-```bash
-python main.py
